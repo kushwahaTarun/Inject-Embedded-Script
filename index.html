@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        margin-top: 10px;
+        width: 100%;
+        height: 80vh;
+        border: 1px solid red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>This is the heading</h1>
+    <!-- button container -->
+    <section>
+      <button onclick="btn1()">Search SAP material code</button>
+      <button onclick="btn2()">Find Duplicate Material</button>
+    </section>
+    <!-- Container that will store the textarea and the table -->
+    <div class="container" style="border: 1px solid green"></div>
+  </body>
+  <script
+    id="FluidAI-integration-script"
+    client="hpcl"
+    src="./index.js"
+  ></script>
+</html>
